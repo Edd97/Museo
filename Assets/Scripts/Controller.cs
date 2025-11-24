@@ -26,6 +26,12 @@ public class Controller : MonoBehaviour
 
     private float rotacionX = 0f;
 
+    [SerializeField] private float groundYOffset = 0.1f;
+    [SerializeField] private LayerMask groundMask;
+    [SerializeField] private float gravity = -9.81f;
+    private Vector3 velocity;
+    private Vector3 spherePosition;
+
 
     void Awake()
     {
@@ -38,6 +44,7 @@ public class Controller : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
+        
 
     }
 
@@ -48,15 +55,20 @@ public class Controller : MonoBehaviour
 
         Vector3 move = transform.right * GameManagerExample.instance.fMovement.x + transform.forward * GameManagerExample.instance.fMovement.y;
 
+        ApplyGravity();
+
         MoverCamara();
 
-        controller.Move(move * speed * Time.deltaTime);
+        Vector3 finalMovement = move * speed * Time.deltaTime + velocity * Time.deltaTime;
+        controller.Move(finalMovement);
 
         /*
         if (GameManagerExample.instance.Confirm())
         {
             Instantiate(bullet, firePoint.position, firePoint.rotation);
         }*/
+
+
     }
 
     void MoverCamara()
@@ -73,6 +85,39 @@ public class Controller : MonoBehaviour
         rotacionX = Mathf.Clamp(rotacionX, -cameraYAngleLimit, cameraYAngleLimit);
         cameraTransform.localRotation = Quaternion.Euler(rotacionX, 0f, 0f);
 
+    }
+
+    private bool IsGrounded()
+    {
+        spherePosition = new Vector3(transform.position.x, transform.position.y - groundYOffset, transform.position.z);
+        return Physics.CheckSphere(spherePosition, controller.radius - 0.05f, groundMask);
+    }
+
+    private void ApplyGravity()
+    {
+        if (IsGrounded())
+        {
+            // Reset gravity when grounded
+            if (velocity.y < 0)
+            {
+                velocity.y = -2f; // Slight negative value to ensure contact with the ground
+            }
+        }
+        else
+        {
+            // Apply gravity over time when not grounded
+            velocity.y += gravity * Time.deltaTime;
+        }
+    }
+
+    private void OnDrawGizmos()
+    {
+        // Visualize the ground check sphere in the Scene view
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(
+            new Vector3(transform.position.x, transform.position.y - groundYOffset, transform.position.z),
+            controller != null ? controller.radius - 0.05f : 0.5f
+        );
     }
 
 
