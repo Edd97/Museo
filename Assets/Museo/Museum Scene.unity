@@ -3052,6 +3052,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: TablaTexto (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_text
+      value: "El Ferrocarril Trans\xEDstmico (actualmente el Ferrocarril de Panam\xE1)
+        se inaugur\xF3 oficialmente el 28 de enero de 1855, con el primer viaje interoce\xE1nico
+        que conect\xF3 el Oc\xE9ano Atl\xE1ntico y el Oc\xE9ano Pac\xEDfico en solo
+        unas pocas horas."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSize
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6150,6 +6165,22 @@ PrefabInstance:
     - target: {fileID: 3370432644747922297, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
       propertyPath: m_Name
       value: TablaTexto
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_text
+      value: "Vasco N\xFA\xF1ez de Balboa fue un adelantado, explorador, gobernante
+        y conquistador espa\xF1ol. Tras ser Andr\xE9s Contero el primer europeo en
+        divisar el oc\xE9ano Pac\xEDfico desde un acantilado de su costa oriental,
+        fue el primero en tomar posesi\xF3n de esas tierras  y el primer europeo
+        en haber fundado una ciudad estable en solares continentales del Nuevo Mundo."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSize
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35370,7 +35401,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "XD\nTexto de ejemplo \n"
+  m_text: "En el a\xF1o 1510, se fund\xF3 Santa Mar\xEDa la Antigua del Dari\xE9n,
+    la primera ciudad espa\xF1ola en Tierra Firme de Am\xE9rica. Fundada por Mart\xEDn
+    Fern\xE1ndez de Enciso y con la participaci\xF3n de Vasco N\xFA\xF1ez de Balboa,
+    fue la primera capital de Castilla de Oro. La ciudad fue abandonada hacia 1519
+    con la fundaci\xF3n de Panam\xE1 La Vieja y fue asaltada por los ind\xEDgenas
+    en 1524. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -35397,8 +35433,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 4
+  m_fontSizeBase: 4
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -41814,7 +41850,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 408907687}
   m_LocalRotation: {x: 0.0033672107, y: -0.99918765, z: 0.039946564, w: -0.0041291104}
-  m_LocalPosition: {x: 0, y: 0, z: 0.12}
+  m_LocalPosition: {x: 0, y: 0, z: 0.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -41822,7 +41858,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 4.577, y: -180.49, z: -0.406}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.46, y: 1.95}
+  m_AnchoredPosition: {x: -4.46, y: 2.29}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &408907689
@@ -41845,7 +41881,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "XD\nTexto de ejemplo \n"
+  m_text: "El Tratado Hay\u2013Bunau Varilla (18 de noviembre de 1903) otorg\xF3
+    a Estados Unidos el control perpetuo de una franja de 10 millas para construir
+    y administrar el Canal de Panam\xE1, a cambio de 10 millones de d\xF3lares y
+    una anualidad de 250 mil. Firmado por John Hay y Philippe Bunau-Varilla, sin
+    autorizaci\xF3n del nuevo gobierno paname\xF1o, convirti\xF3 a Panam\xE1 en un
+    virtual protectorado estadounidense."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -41872,8 +41913,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 4
+  m_fontSizeBase: 4
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -92182,7 +92223,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "XD\nTexto de ejemplo \n"
+  m_text: "Aunque fortaleci\xF3 la soberan\xEDa paname\xF1a, mantuvo la concesi\xF3n
+    \u201Ca perpetuidad\u201D y la presencia militar estadounidense, siendo un paso
+    hacia los futuros Tratados Torrijos-Carter (1977)."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -92209,8 +92252,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 5
+  m_fontSizeBase: 5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -92986,7 +93029,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "XD\nTexto de ejemplo \n"
+  m_text: "Entre 1904 y 1914, Estados Unidos construy\xF3 el Canal de Panam\xE1,
+    una obra de ingenier\xEDa de 80 kil\xF3metros de largo que conecta el Atl\xE1ntico
+    y el Pac\xEDfico, culminando en 1914 con la inauguraci\xF3n del SS Anc\xF3n."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -93013,8 +93058,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 5
+  m_fontSizeBase: 5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -94121,7 +94166,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "XD\nTexto de ejemplo \n"
+  m_text: "El Tratado Arias-Roosevelt (1936), firmado por el presidente paname\xF1o
+    Harmodio Arias y el presidente estadounidense Franklin D. Roosevelt, reform\xF3
+    parcialmente el Tratado Hay-Bunau Varilla. Estados Unidos renunci\xF3 al derecho
+    de intervenci\xF3n en Panam\xE1, se estableci\xF3 la defensa conjunta del Canal,
+    se aument\xF3 la anualidad a 436 mil d\xF3lares y se limitaron privilegios comerciales
+    en la Zona del Canal"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -94148,8 +94198,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 3.9
+  m_fontSizeBase: 3.9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -151686,6 +151736,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: TablaTexto (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_text
+      value: "Entre 1501 y 1502, el conquistador espa\xF1ol Rodrigo de Bastidas explor\xF3
+        la costa caribe\xF1a de Panam\xE1, marcando la primera llegada de un europeo
+        al istmo. Acompa\xF1ado por Juan de la Cosa y un joven Vasco N\xFA\xF1ez
+        de Balboa, Bastidas recorri\xF3 las costas caribe\xF1as de la actual Colombia
+        y se adentr\xF3 en el territorio paname\xF1o."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSize
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -168299,6 +168365,21 @@ PrefabInstance:
     - target: {fileID: 3370432644747922297, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
       propertyPath: m_Name
       value: TablaTexto (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_text
+      value: "La cultura Gran Cocl\xE9 fue una compleja civilizaci\xF3n precolombina
+        de Panam\xE1 (aprox. 1200 a.C. - siglo XVI), conocida por su rica cer\xE1mica
+        policromada con dise\xF1os de animales fant\xE1sticos y figuras humanas,
+        as\xED como su sofisticada orfebrer\xEDa. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSize
+      value: 4.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 4.9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -201635,7 +201716,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "XD\nTexto de ejemplo \n"
+  m_text: "Tratado de Paz, Amistad, Navegaci\xF3n y Comercio que estableci\xF3 un
+    acuerdo de cooperaci\xF3n entre Estados Unidos y Nueva Granada. Concedi\xF3 a
+    EE. UU. derechos de tr\xE1nsito sobre el istmo paname\xF1o y facultades militares
+    para intervenir en conflictos, lo que deriv\xF3 en repetidas intervenciones contra
+    civiles y movimientos independentistas."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -201662,8 +201747,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 4
+  m_fontSizeBase: 4
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
