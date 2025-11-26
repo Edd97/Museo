@@ -19177,6 +19177,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: TablaTexto (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_text
+      value: "El 28 de noviembre de 1821, Panam\xE1 declar\xF3 su independencia de
+        Espa\xF1a, un evento hist\xF3rico que marc\xF3 el fin del dominio espa\xF1ol
+        sobre el istmo. Esta declaraci\xF3n, impulsada por un levantamiento popular,
+        fue formalizada por el cabildo de Panam\xE1 en el Acta de Independencia y
+        llev\xF3 a la provincia a unirse voluntariamente a la Rep\xFAblica de la
+        Gran Colombia.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSize
+      value: 3.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 3.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -74628,6 +74649,35 @@ PrefabInstance:
       propertyPath: m_Name
       value: TablaTexto (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_text
+      value: "El 15 de agosto de 1519, Pedro Arias D\xE1vila fund\xF3 la ciudad de
+        Panam\xE1 la Vieja, el primer asentamiento espa\xF1ol en la costa del Pac\xEDfico.
+        Esta ciudad se convirti\xF3 en un centro clave para el comercio, porque desde
+        all\xED se mov\xEDan las riquezas que llegaban del Per\xFA hacia Espa\xF1a.
+        Tambi\xE9n marc\xF3 el inicio del papel estrat\xE9gico del istmo como lugar
+        de tr\xE1nsito entre los dos oc\xE9anos.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSize
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_margin.x
+      value: 1.8038135
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_margin.z
+      value: 10.543468
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -75156,6 +75206,47 @@ PrefabInstance:
     - target: {fileID: 3370432644747922297, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
       propertyPath: m_Name
       value: TablaTexto (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_text
+      value: "En 1521, la Corona Espa\xF1ola reconoci\xF3 la importancia de Panam\xE1
+        y le dio el t\xEDtulo de ciudad junto con un escudo de armas. Esto no fue
+        solo un honor, sino tambi\xE9n una forma de confirmar que la ciudad era un
+        punto fundamental para el comercio y la expansi\xF3n en Am\xE9rica. A partir
+        de ese momento, Panam\xE1 qued\xF3 a\xFAn m\xE1s consolidada como centro
+        estrat\xE9gico del imperio espa\xF1ol.\r\n \n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSize
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_margin.w
+      value: -0.49566245
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_margin.x
+      value: 1.5800161
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_margin.y
+      value: -0.09192728
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_margin.z
+      value: 10.494977
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -141194,6 +141285,28 @@ PrefabInstance:
       propertyPath: m_Name
       value: TablaTexto (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_text
+      value: "Tras el ataque del pirata Morgan, la ciudad qued\xF3 destrozada casi
+        por completo, por lo que se plane\xF3 su reconstrucci\xF3n, pero no el mismo
+        lugar, sino en una pen\xEDnsula ubicada a 8 km de la zona, lo que conocemos
+        actualmente como casco antiguo, la raz\xF3n de esto fue porque en aquella
+        \xE1rea ser\xEDa m\xE1s f\xE1cil defenderse de futuros ataques gracias al
+        arrecife de corales que la rodeaba, as\xED que por 2 a\xF1os, la nueva ciudad
+        se rearm\xF3 bloque por bloque, justo con los mismos del viejo asentamiento."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSize
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -151861,6 +151974,39 @@ PrefabInstance:
     - target: {fileID: 3370432644747922297, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
       propertyPath: m_Name
       value: TablaTexto (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_text
+      value: "La cultura Gran Cocl\xE9 fue una compleja civilizaci\xF3n precolombina
+        de Panam\xE1 (aprox. 1200 a.C. - siglo XVI), conocida por su rica cer\xE1mica
+        policromada con dise\xF1os de animales fant\xE1sticos y figuras humanas,
+        as\xED como su sofisticada orfebrer\xEDa. Su legado art\xEDstico, que incluye
+        vasijas, m\xE1scaras y joyas de oro, se exhibe en museos y representa una
+        parte importante del patrimonio cultural de la regi\xF3n.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSize
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_margin.x
+      value: 1.7869487
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_margin.y
+      value: 0.16697264
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_margin.z
+      value: 10.620962
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -172534,6 +172680,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: TablaTexto (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_text
+      value: "El buque Cosco Shipping Panam\xE1 fue el primero en cruzar el Canal
+        ampliado el 26 de junio de 2016. Con casi 300 metros de largo y capacidad
+        para 9,472 TEUs, marc\xF3 el inicio de una nueva era en la log\xEDstica mar\xEDtima
+        global. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSize
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_margin.x
+      value: 1.7227559
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_margin.z
+      value: 10.529897
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -174872,6 +175045,37 @@ PrefabInstance:
     - target: {fileID: 3370432644747922297, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
       propertyPath: m_Name
       value: TablaTexto (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_text
+      value: "Las civilizaciones precolombinas en la regi\xF3n de Gran Chiriqu\xED,
+        que abarca el sur de Costa Rica y Panam\xE1 Occidental, se caracterizaron
+        por el desarrollo de la cer\xE1mica, la escultura en piedra (especialmente
+        el Sitio Arqueol\xF3gico de Barriles), la orfebrer\xEDa y sociedades jerarquizadas
+        que evolucionaron de tribus igualitarias a cacicazgos m\xE1s complejos. La
+        regi\xF3n era un crisol de culturas con una fuerte influencia suramericana,
+        como demuestra la pr\xE1ctica de la agricultura del ma\xEDz y el cultivo
+        de tub\xE9rculos.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSize
+      value: 3.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_margin.x
+      value: 1.7783914
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_margin.z
+      value: 10.639213
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 3.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -179390,6 +179594,45 @@ PrefabInstance:
     - target: {fileID: 3370432644747922297, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
       propertyPath: m_Name
       value: TablaTexto (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_text
+      value: "Debido a que Panam\xE1 se hab\xEDa convertido en uno de los lugares
+        m\xE1s importantes para el imperio espa\xF1ol, el pirata ingl\xE9s Henry
+        Morgan, junto a su ej\xE9rcito conformado por m\xE1s de 400 hombres, atac\xF3
+        a la ciudad de panam\xE1, ahora conocida como Panam\xE1 la vieja, para as\xED
+        apoderarse de todo el territorio y sus riquezas. Todo se hab\xEDa vuelto
+        un caos y ya se hab\xEDan saqueado varios bienes, por lo que como \xFAltimo
+        recurso, el gobernador de Panam\xE1, Juan P\xE9rez de Guzm\xE1n y Gonzaga,
+        orden\xF3 incendiar la ciudad.\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSize
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_margin.w
+      value: -0.39367032
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_margin.x
+      value: 1.7180643
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_margin.y
+      value: 0.026876448
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_margin.z
+      value: 10.56607
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -186849,6 +187092,44 @@ PrefabInstance:
     - target: {fileID: 3370432644747922297, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
       propertyPath: m_Name
       value: TablaTexto (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_text
+      value: "En 1502, Crist\xF3bal Col\xF3n explor\xF3 la costa caribe\xF1a del
+        istmo de Panam\xE1 durante su cuarto y \xFAltimo viaje, llegando a la actual
+        provincia de Veraguas el 10 de octubre y luego a la bah\xEDa de Portobelo
+        el 2 de noviembre, que \xE9l mismo bautiz\xF3. Este viaje marc\xF3 el primer
+        contacto europeo con el istmo paname\xF1o y sent\xF3 las bases para la historia
+        de la regi\xF3n, que se convertir\xEDa en un punto estrat\xE9gico crucial
+        para Espa\xF1a."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSize
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_margin.w
+      value: -0.33668137
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_margin.x
+      value: 1.6835866
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_margin.y
+      value: 0.13947439
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_margin.z
+      value: 10.595067
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -211926,6 +212207,28 @@ PrefabInstance:
     - target: {fileID: 3370432644747922297, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
       propertyPath: m_Name
       value: TablaTexto (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_text
+      value: "Durante el siglo XIV y XV, en el actual territorio paname\xF1o coexist\xEDan
+        diversas poblaciones ind\xEDgenas, incluyendo al pueblo Guna en Guna Yala
+        (San Blas), con sus or\xEDgenes probablemente en Dari\xE9n, y al pueblo Ng\xE4be
+        (o Guaym\xED) en el occidente, abarcando partes de Bocas del Toro, Veraguas
+        y Chiriqu\xED. Estas comunidades ya estaban consolidadas en sus territorios
+        antes de la llegada de los europeos, que se dio con la exploraci\xF3n de
+        las costas paname\xF1as en 1501.\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSize
+      value: 3.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 3.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163731062483903890, guid: d6fcddc337ed1e84a8d540ef77f91db7, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
